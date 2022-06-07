@@ -7,8 +7,6 @@ export const GifGrid = ({ category }) => {
 
   console.log(loading);
 
-  /*Si la category cambia -línea 9- useEffect se va a disparar nuevamente*/
-
   return (
     <>
       <h3 className="animate__animated animate__fadeIn">{category}</h3>
